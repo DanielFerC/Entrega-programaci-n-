@@ -489,7 +489,7 @@ PrefabInstance:
     - target: {fileID: 2964558382221582487, guid: b2d701e04b6c17e4cbabe9fc6605cf9d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2964558382221582487, guid: b2d701e04b6c17e4cbabe9fc6605cf9d,
         type: 3}
@@ -885,7 +885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd90f26e9f9cccc46a3ba252e0d428e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 13
+  speed: 10
   bala: {fileID: 2311028443580538644, guid: b98de49ede728574da1a3e14e68e5551, type: 3}
   balaRafaga: {fileID: 2311028443580538644, guid: d931d82606f836640abe5c3bcc73de48,
     type: 3}
@@ -1594,7 +1594,7 @@ PrefabInstance:
     - target: {fileID: 7522999413742081825, guid: e89d9939cc34933428fcecc83ffd5bdb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7522999413742081825, guid: e89d9939cc34933428fcecc83ffd5bdb,
         type: 3}

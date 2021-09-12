@@ -69,8 +69,7 @@ public class GameManager : MonoBehaviour
             {
                 Time.timeScale = 0;
                 pauseMenu.SetActive(true);
-            }
-            else
+            }else
             {
                 Time.timeScale = 1;
                 pauseMenu.SetActive(false);

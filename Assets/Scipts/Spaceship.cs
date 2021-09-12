@@ -78,7 +78,7 @@ public class Spaceship : MonoBehaviour
             balaCamaraLenta = true;
            
             nextCamaraLenta = Time.time + 5;
-            usosCamaraLenta = usosCamaraLenta-1;
+            usosCamaraLenta--;
             contador = Time.time;
            
         }
