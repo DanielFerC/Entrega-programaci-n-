@@ -80,9 +80,9 @@ public class Spaceship : MonoBehaviour
             nextCamaraLenta = Time.time + 5;
             usosCamaraLenta--;
             contador = Time.time;
-           
+            
         }
-        if (Time.time >= contador+3)
+        if (Time.time >= contador+3 && Time.timeScale==0.5f)
         {
             (GameObject.Find("GameManager").GetComponent<GameManager>()).Normalizar();
             balaCamaraLenta = false;
@@ -106,7 +106,7 @@ public class Spaceship : MonoBehaviour
     }
     void DispararRafaga()
     {
-        if (Input.GetKey(KeyCode.Space) && Time.time >= nextRafaga)
+        if (Input.GetKey(KeyCode.Space) && Time.time >= nextRafaga && balaCamaraLenta == false)
         {
             
             Instantiate(balaRafaga, disparador.transform.position, transform.rotation);
@@ -118,7 +118,7 @@ public class Spaceship : MonoBehaviour
     {
         
         
-        if(Input.GetKeyDown(KeyCode.Space) && Time.time >= nextFire)
+        if(Input.GetKeyDown(KeyCode.Space) && Time.time >= nextFire && balaCamaraLenta == false)
         {
             Instantiate(bala, disparador.transform.position, transform.rotation);
             nextFire = Time.time + fireRate;
